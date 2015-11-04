@@ -5,10 +5,19 @@
   "main": "server.js",
   "repository": {
     "type": "git",
+<<<<<<< HEAD
     "url": "git+https://github.com/johnstonbl01/clementinejs-fcc"
   },
   "homepage": "http://www.clementinejs.com/",
   "bugs": "https://github.com/johnstonbl01/clementinejs-fcc/issues",
+=======
+    "url": "git+https://github.com/johnstonbl01/clementinejs-fcc.git"
+  },
+  "homepage": "http://www.clementinejs.com/",
+  "bugs": {
+    "url": "https://github.com/johnstonbl01/clementinejs-fcc/issues"
+  },
+>>>>>>> d2e17d316dccb87b0c520519dde130c40c6ac988
   "keywords": [
     "MongoDB",
     "Mongoose",
@@ -19,9 +28,17 @@
     "boilerplate"
   ],
   "scripts": {
+<<<<<<< HEAD
   "start": "node server.js"
   },
   "author": "Blake Johnston",
+=======
+    "start": "node server.js"
+  },
+  "author": {
+    "name": "Blake Johnston"
+  },
+>>>>>>> d2e17d316dccb87b0c520519dde130c40c6ac988
   "license": "MIT",
   "dependencies": {
     "dotenv": "^1.2.0",
@@ -30,5 +47,16 @@
     "mongoose": "^4.1.0",
     "passport": "^0.3.0",
     "passport-github": "^1.0.0"
+<<<<<<< HEAD
   }
+=======
+  },
+  "gitHead": "f396974826516cb5c792e6688e1450ccc8455e4a",
+  "readme": "# Clementine.js FCC Boilerplate\n\n[![Join the chat at https://gitter.im/johnstonbl01/clementinejs](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/johnstonbl01/clementinejs?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)\n\n## Overview\n\nClementine.js is a lightweight boilerplate for fullstack JavaScript development which utilizes MongoDB, Express and Node.js. The boilerplate errs on the side of transparency and simplicity, making it an ideal starting point for beginner and seasoned developers alike. \n\nThe [Free Code Camp](http://www.freecodecamp.com) version of Clementine.js is meant for use when completing projects as part of the FCC curriculum. This version includes GitHub authentication using [Passport](http://passportjs.org/).\n\n## Versions\n\nThere are 3 versions of Clementine.js:\n\n- [**Standard**](https://github.com/johnstonbl01/clementinejs): the simplest version of Clementine.js. Intended for those who wish for the smallest and least intrusive footprint OR to implement features on their own.\n- [**Angular**](https://github.com/johnstonbl01/clementinejs-angular): a slightly more complex version of the same application. This version employs the use of AngularJS as the front-end framework.\n- **Free Code Camp (FCC)** (this version): A modified version of the standard boilerplate that is intended for use with the [Free Code Camp](http://freecodecamp.com/) curriculum.\n\n# Quick Start Guide\n\n### Prerequisites\n\nIn order to use Clementine.js, you must have the following installed:\n\n- [Node.js](https://nodejs.org/)\n- [NPM](https://nodejs.org/)\n- [MongoDB](http://www.mongodb.org/)\n- [Git](https://git-scm.com/)\n\n### Installation & Startup\n\nTo install Clementine.js, simply enter the below in the terminal window:\n\n```bash\n$ git clone https://github.com/johnstonbl01/clementinejs-fcc.git your-project\n```\n\nThis will install the Clementine.js components into the `your-project` directory.\n\n### Setup GitHub Authentication\n\nPlease follow [this guide](http://www.clementinejs.com/tutorials/tutorial-passport.html#GitHubAppSetup) to register the application with GitHub and get API keys / secrets.\n\n### Local Environment Variables\n\nCreate a file named `.env` in the root directory. This file should contain:\n\n```\nGITHUB_KEY=your-client-id-here\nGITHUB_SECRET=your-client-secret-here\nMONGO_URI=mongodb://localhost:27017/clementinejs\nPORT=8080\nAPP_URL=http://localhost:8080/\n```\n\n### Starting the App\n\nTo start the app, make sure you're in the project directory and type `node server.js` into the terminal. This will start the Node server and connect to MongoDB.\n\nYou should the following messages within the terminal window:\n\n```\nNode.js listening on port 8080...\n```\n\nNext, open your browser and enter `http://localhost:8080/`. Congrats, you're up and running!\n\n### c9.io Setup\n\nIf you're using c9.io, please [reference the documentation](http://www.clementinejs.com/versions/fcc.html#c9.ioSetup) for instructions to get Clementine.js working in the c9 environment.\n\n## Contributing\n\nThis is an open-source project, and contributions are always welcome! To see ways to contribute, please review the [contribution guidelines](http://www.clementinejs.com/developers/contributing.html).\n\n## Documentation\n\nComplete documentation can be [found here](http://www.clementinejs.com).\n\n### Tutorial\n\nYou can find a complete step-by-step tutorial on how to create this app from the ground up [here](http://www.clementinejs.com/tutorials/tutorial-passport.html).\n\n## Features\n\n| Features           | Standard  | Angular   | FCC       |\n|:---------          |:--------: |:--------: |:---------:|\n| MongoDB            | _Yes_     | _Yes_     | _Yes_     |\n| Express            | _Yes_     | _Yes_     | _Yes_     |\n| AngularJS (1.x)    | _No_      | _Yes_     | _No_      |\n| Node.js            | _Yes_     | _Yes_     | _Yes_     |\n| Passport           | _No_      | _No_      | _Yes_     |\n| Mongoose           | _No_      | _No_      | _Yes_     |\n\n## License\n\nMIT License. [Click here for more information.](LICENSE.md)\n",
+  "readmeFilename": "README.md",
+  "_id": "clementinejs-fcc@1.0.1",
+  "_shasum": "103e7b6a6f4c1de88afffecb8c16e84b5c3c8122",
+  "_from": "git+https://github.com/johnstonbl01/clementinejs-fcc.git",
+  "_resolved": "git+https://github.com/johnstonbl01/clementinejs-fcc.git#f396974826516cb5c792e6688e1450ccc8455e4a"
+>>>>>>> d2e17d316dccb87b0c520519dde130c40c6ac988
 }
